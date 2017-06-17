@@ -9,6 +9,7 @@
   "author": "alisa, michael",
   "license": "ISC",
   "dependencies": {
+    "express": "^4.15.3",
     "mongoose": "^4.10.6"
   }
 }
