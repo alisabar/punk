@@ -1,0 +1,14 @@
+{
+  "name": "punkproject",
+  "version": "1.0.0",
+  "description": "web server of a punk lovers.",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "alisa, michael",
+  "license": "ISC",
+  "dependencies": {
+    "mongoose": "^4.10.6"
+  }
+}
