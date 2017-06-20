@@ -6,6 +6,10 @@ const http = require('http'),
       port = process.env.PORT || 8080;
       const mongoose = require('mongoose'),
       consts=require('./consts.js');
+var cors = require('cors');
+app.use(cors());
+consle.log('CORS enabled');
+
 mongoose.Promise=global.Promise;
 mongoose.connect(consts.MLAB_KEY);
 const conn= mongoose.connection;
