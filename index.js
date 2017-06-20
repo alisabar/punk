@@ -8,7 +8,7 @@ const http = require('http'),
       consts=require('./consts.js');
 var cors = require('cors');
 app.use(cors());
-consle.log('CORS enabled');
+console.log('CORS enabled');
 
 mongoose.Promise=global.Promise;
 mongoose.connect(consts.MLAB_KEY);
