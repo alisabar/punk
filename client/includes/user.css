@@ -1,0 +1,476 @@
+*{
+    margin:0;
+    padding: 0;
+}
+
+@font-face {
+    font-family: LetterGothicStd;
+    src: url(../fonts/LetterGothicStd.otf);
+}
+
+@font-face {
+    font-family: LetterGothicStd-Bold;
+    src: url(../fonts/LetterGothicStd-Bold.otf);
+}
+
+@font-face {
+    font-family: LetterGothicStd-BoldSlanted;
+    src: url(../fonts/LetterGothicStd-BoldSlanted.otf);
+}
+@font-face {
+    font-family: LetterGothicStd-Slanted;
+    src: url(../fonts/LetterGothicStd-Slanted.otf);
+}
+header,nav,main,footer,aside,article,section{
+    display: block;
+    
+}
+body{
+    position: relative;
+    
+}
+
+.wrapper{
+    position: relative;
+    height: 1496px;
+    width:1670px;
+    background: url(../images/background.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+header{
+    position: relative;
+    width: 1670px;
+}
+aside{
+   position: absolute; 
+   display: inline-block;
+   height: 83%;
+   width:42%;
+
+}
+main{
+    position: absolute;
+    right:1px;
+    display: inline-block;
+     height: 83%;
+   width:57%; 
+}
+a#logo{
+    position: relative;
+    display: inline-block;
+    width: 13%;
+    height: 219px;
+    margin-left: 100px;
+    margin-top: 13px;
+    background: url(../images/Logo.png);
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+
+.horizontal_line{
+ 
+   position: absolute;
+    display: inline-block;
+    width: 72%;
+    height: 9px;
+    margin-left: 42px;
+    margin-top: 94px;
+    background: url(../images/top-line.png);
+     z-index: 3;
+
+}
+.vertical_line{
+ position: absolute;
+    display: inline-block;
+    width: 9px;
+    height: 100%;
+    margin-left: 93px;
+    background: url(../images/side-line.png);
+    margin-top: -15px;
+
+}
+.upload_now{
+    position: absolute;
+    top:57px;
+    left:475px;
+    width: 160px;
+    height:88px;
+    background-color:black;
+ 
+}
+a.upload_now {
+    text-decoration: none;
+}
+.upload_now ul{
+        list-style-type: none;
+}
+.upload_now li:nth-child(1){
+   padding-top: 4px;
+    padding-left: 6px;
+    font-family: LetterGothicStd;
+    color: #ffffff;
+    font-size: 41px;
+    margin-bottom: -10px;
+}
+.upload_now li:nth-child(2){
+       padding-left: 7px;
+    font-family: LetterGothicStd;
+    color: #ff0000;
+    font-size: 41px;
+}
+
+.audience{
+    position: absolute;
+    top:50px;
+    right:110px;
+    width: 224px;
+    height:38px;
+    background-color:black;
+    z-index: 1;
+}
+a.audience{
+    text-decoration: none;
+}
+.audience p{
+  
+    padding-left:36px;
+    font-family: LetterGothicStd-Bold;
+    color:#ffffff;
+    font-size: 38px;
+
+}
+.circle{
+    position: absolute;
+    top:29px;
+    right: 64px;
+    width: 293px;
+    height:74px;
+    background-image: url(../images/circle-bold.png);
+    z-index: 2;
+}
+.bands{
+    position: absolute;
+    top:109px;
+    right:110px;
+    width: 136px;
+    height:41px;
+    background-color:black;
+    z-index: 1;
+}
+a.bands{
+    text-decoration: none;
+}
+.bands p{
+  
+    padding-left:20px;
+    font-family: LetterGothicStd-Bold;
+    color:#ffffff;
+    font-size: 38px;
+    margin-top: 2px;
+}
+.line_over{
+    position: absolute;
+    top:121px;
+    right: 88px;
+    width: 180px;
+    height:16px;
+    background-image: url(../images/line-bold.png);
+    z-index: 2;
+}
+.search{
+    position: absolute;
+    top:170px;
+    left:353px;
+    width: 968px;
+    height:58px; 
+    background:black;
+   
+}
+.search a{
+    position: absolute;
+    width: 40px;
+    height:45px; 
+    top:8px;
+    left:11px;
+    background: url(../images/search.png) no-repeat;
+}
+.input{
+    width: 892px;
+  
+}
+input[type=text] {
+
+    height: 50px;
+    position: relative;
+    left: 70px;
+    outline: none;
+    border: none;
+    background-color: black;
+    color: white;
+    font-size: 40px;
+    top: 2px;
+ }
+ .name_main_video{
+    position: absolute;
+    top: 38px;
+    left: 7px;
+    width: initial;
+    height: 36px;
+    background-color: black;
+    font-family: LetterGothicStd;
+    font-size: 27px;
+    color: white;
+    padding-top: 4px;
+    padding-left: 12px;
+    padding-right: 4px;
+    display: inline-block;
+ }
+ .line_under_main_video{
+    position: absolute;
+    top: 604px;
+    right: 99px;
+    width: 850px;
+    height: 8px;
+    background: url(../images/long-line.png);
+ }
+ .main_video{
+    position: absolute;
+    top: 74px;
+    right: 100px;
+    height: 477px;
+    width: 845px;
+    border: none;
+ }
+ .video_buttons_background{
+     position: absolute;
+    top: 482px;
+    right: 100px;
+    height:70px;
+    width: 845px;
+   background-image: url(../images/darken-bar.png); 
+ }
+ .all_buttons_player{
+    display: inline-block;
+    margin-top:44px;
+    margin-left: 24px;
+ }
+ 
+ .pause{
+    background-image:url(../images/pause.png);
+    height:18px;
+    width: 14px;
+ }
+ .pause:hover{
+     background-image:url(../images/pause-hover.png);
+ }
+ .play{
+     background-image:url(../images/next.png);
+     height:18px;
+     width: 12px;
+ }
+  .play:hover{
+     background-image:url(../images/next-hover.png);
+ }
+ .next{
+    background-image:url(../images/next.png);
+    height:18px;
+    width: 18px; 
+ }
+ .next:hover{
+     background-image:url(../images/next-hover.png);
+ }
+ .volume_button{
+   background-image:url(../images/volume.png);
+   height:18px;
+    width:27px;
+ }
+ .volume_button:hover{
+    background-image:url(../images/volume-hover.png);
+ }
+ .thin_text{
+    font-size: 27px;
+    font-family: LetterGothicStd;
+   color:#682954;
+
+ }
+ .number_of_views{
+    position: absolute;
+    top: 45px;
+    right:100px;
+    display: inline-block;
+ }
+ .thin_text span{
+    font-family: LetterGothicStd-Bold;
+ }
+ .live{
+    background-image: url(../images/live.png);
+    position: absolute;
+    top:90px;
+    right: 159px;
+    height: 38px;
+    width: 150px;
+ }
+ .date{
+    position: absolute;
+    top:560px;
+    left: 7px;
+    
+ }
+ .share_on{
+    display: inline-block;
+    position: absolute;
+    top:635px;
+    right: 532px;
+    height: 35px;
+    width: 148px;
+    background-color:black;
+    font-family: LetterGothicStd;
+    font-size: 27px;
+    color: white;
+    padding-top: 4px;
+    padding-left: 12px;
+    padding-right: 4px;
+ }
+.logos_collection{
+     position: absolute;
+    top:639px;
+    right: 68px;
+    width: 418px;
+    height: 33px;
+}
+ .all_logos{
+    position: relative;
+    display: inline-block;
+    height: 32px;
+    width: 32px;
+    margin-right: 3px;
+    background-size: contain;
+ }
+ .facebook{
+background-image: url(../images/logos/facebooklogo.png);
+ }
+  .skype{
+background-image: url(../images/logos/skyplogo.png);
+ }
+  .google{
+background-image: url(../images/logos/googlelogo.png);
+ }
+  .tweeter{
+background-image: url(../images/logos/tweeterlogo.png);
+ }
+ .reddit{
+    background-image: url(../images/logos/redditlogo.png);
+ }
+  .blooger{
+    background-image: url(../images/logos/bloogerlogo.png);
+ }
+  .tumblr{
+    background-image: url(../images/logos/tumblrlogo.png);
+ }
+  .insta{
+    background-image: url(../images/logos/instalogo.png);
+ }
+   .pinterest{
+    background-image: url(../images/logos/pinterestlogo.png);
+ }
+    .linkedin{
+    background-image: url(../images/logos/linkedinlogo.png);
+ }
+ .top_asside{
+    height:386px;
+   
+    display: inline-block;
+ 
+    width: 100%;
+ }
+ .secondary_video{
+    position: absolute;
+    top: 74px;
+    right: 3px;
+    height: 195px;
+    width: 345px;
+    border: none;
+ }
+ .next_on{
+    position: absolute;
+    top: 43px;
+    right: 1px;
+ }
+ .secondary_video_details{
+    
+     position: absolute;
+    top: 74px;
+    right: 364px;
+    height: 100px;
+    width: 144px;
+ }
+ .upper_video{
+height: 400px;
+width: 400px;
+ }
+ .secondary_video_details ul{
+    list-style-type: none;
+    direction: rtl;
+ }
+ .secondary_video_details li:nth-child(2){
+    color:black;
+ }
+ .secondary_video_name{
+    position:absolute;
+    top:269px;
+    right: 187px;
+    width: initial;
+    height: 36px;
+    background-color: black;
+    font-family: LetterGothicStd;
+    font-size: 27px;
+    color: white;
+    padding-top: 4px;
+    padding-left: 12px;
+    padding-right: 4px;
+ }
+ .bottom_asside{
+
+    display: inline-block;
+    position: relative;
+    height: 100%;
+    width: 100%;
+ }
+ .aside_bottom_video{
+  display: block;
+    height: 195px;
+    width: 345px;
+    border: none;
+    position: relative;
+    margin-left: 232px;
+ }
+ .aside_bottom_video_details{
+    
+     position: absolute;
+    top: 74px;
+    right: 364px;
+    height: 100px;
+    width: 144px;
+ }
+.aside_bottom_video_details ul{
+    list-style-type: none;
+    direction: ltr;
+ }
+.aside_bottom_video_details li:nth-child(2){
+    color:black;
+ }
+ .aside_bottom_video_name{
+    position:absolute;
+    top:269px;
+    right: 187px;
+    width: initial;
+    height: 36px;
+    background-color: black;
+    font-family: LetterGothicStd;
+    font-size: 27px;
+    color: white;
+    padding-top: 4px;
+    padding-left: 12px;
+    padding-right: 4px;
+ }
